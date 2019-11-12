@@ -1,11 +1,4 @@
 import { bgBlue, red, bold } from "https://deno.land/std/fmt/colors.ts";
 
+console.log(bgBlue(red(bold('Hello from github!'))));
 
-const sayHello = (name: string = "world") => {
-  console.log(bgBlue(red(bold(`Hello ${name}!`))));
-}
-
-
-sayHello();
-
-sayHello("Conlin");
